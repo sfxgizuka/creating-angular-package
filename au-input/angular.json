@@ -1,10 +1,13 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "e2eade60-2772-4433-a5c0-7ee386a4c915"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "au-input": {
-      "root": "",
+      "root": "e2e",
       "sourceRoot": "src",
       "projectType": "application",
       "architect": {
@@ -119,7 +122,7 @@
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "",
-      "styleext": "css"
+      "style": "css"
     },
     "@schematics/angular:directive": {
       "prefix": ""
