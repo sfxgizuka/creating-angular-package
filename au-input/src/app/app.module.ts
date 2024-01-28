@@ -4,15 +4,19 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 
 import {HttpClientModule} from "@angular/common/http";
+import { FaInputComponent } from './lib/fa-input/fa-input.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FaInputComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
