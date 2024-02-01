@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import {HttpClientModule} from "@angular/common/http";
 import { FaInputComponent } from './lib/fa-input/fa-input.component';
 import { CommonModule } from '@angular/common';
+import { InputRefDirective } from './lib/common/input-ref.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FaInputComponent
+    FaInputComponent,
+    InputRefDirective
   ],
   imports: [
     BrowserModule,

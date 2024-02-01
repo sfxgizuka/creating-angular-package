@@ -8,15 +8,22 @@
 
 }
 :host{
-  border: 1px solid lightgray;
+  border-width: 1px;
+  border-style: solid;
+
   padding-bottom: 1px;
   display: inline-block;
-  background: white;
+
 }
-input{
+:host ::ng-deep input{
   border: none;
   outline: none;
   height: 100%;
   margin: 1px 0;
   box-sizing: border-box;
+}
+
+:host(.input-focus){
+  outline: none;
+
 }
